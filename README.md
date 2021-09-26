@@ -7,16 +7,20 @@ Install bazel
 
 ## Build from root of repo
 Build python
+
 `bazel build :driver`
 
 Build C++
+
 `bazel build :main`
 
 ## Run from root of repo
 Run python binary
+
 `./bazel-bin/driver`
 
 Run C++ binary
+
 `./bazel-bin/main`
 
 ## Note
