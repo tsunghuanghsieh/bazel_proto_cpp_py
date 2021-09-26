@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package zonghuan.evaluator;
+
+message EvaluatorConfig {
+    oneof config {
+        Eval1 eval1 = 1;
+        Eval2 eval2 = 2;
+        Eval3 eval3 = 3;
+    }
+}
+
+message Eval1 {
+    bool placeholder = 1;
+}
+
+message Eval2 {
+    bool placeholder = 1;
+}
+
+message Eval3 {
+    bool placeholder = 1;
+}
